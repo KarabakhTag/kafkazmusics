@@ -15,11 +15,11 @@ async def start(_, message: Message):
 
                 caption=(f"""Merhaba {message.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım kafkaz Müzik 🎙️.""")
 
-                
+      
                 
 
 
-     
+
 
 ).**"""),
          reply_markup=InlineKeyboardMarkup(
