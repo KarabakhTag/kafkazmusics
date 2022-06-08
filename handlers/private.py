@@ -6,12 +6,20 @@ from helpers.filters import command, other_filters2
 # azzardi tarafından düzenlendi. 
 
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]))
+
 async def start(_, message: Message):
+
                 await message.reply_photo(
+
                 "https://i.ibb.co/khRz42f/Turkish-Voice.jpg",
-                caption=(f"""**Merhaba {message.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım [kafkaz Müzik 🎙️](https://t.me/azeqafqaz2021).**""", 
+
+                caption=(f"""Merhaba {message.from_user.mention} 🎵\nBen {bot}!\nSesli sohbetlerde müzik çalabilen botum. Ban yetkisiz, Ses yönetimi yetkisi verip, Asistanı gruba ekleyiniz.\n\nDüzen Tasarım kafkaz Müzik 🎙️.""")
+
                 
-                e
+                
+
+
+                
 
 ).**"""),
          reply_markup=InlineKeyboardMarkup(
